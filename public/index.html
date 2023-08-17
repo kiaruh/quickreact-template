@@ -67,7 +67,7 @@
       };
       var actionname = 'Comprar';
       var action = {
-          'Purchase': 'Purchase',
+          'Purchase': document.location.href,
          
       };
 
@@ -89,6 +89,7 @@
       g.async = true;
       g.src = u + 'tv2track.js';
       s.parentNode.insertBefore(g, s);
+      console.log(document.location.href)//LOGGING THE PATH
   })();
 </script>
 <!-- End TVSquared Tracking Code -->
